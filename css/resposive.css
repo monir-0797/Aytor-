@@ -1,0 +1,203 @@
+/* responsive:Desktop Start's */
+
+/* ====Banner Start's==== */
+ @media (min-width:992px) and (max-width:1199px){
+    #banner .banner_slider .banner_cnt h2 {  
+        font-size: 50px;
+        line-height: 60px;
+    }
+    #banner .banner_slider .banner_cnt p {    
+            font-size: 14px;
+        }
+
+        #banner .slick-dots {   
+            bottom: 80px;
+            left: 100px;
+        }
+
+    }
+    /*====== Banner End's===== */
+
+
+   /* =====Product Start's=== */
+
+   /* =====Product End's ====*/
+
+/* ====responsive:Desktop End's === */
+
+
+
+/* ===responsive:Midium Start's === */
+
+/* =========Banner======= */
+@media (min-width:768px) and (max-width:991px){
+    
+    #banner .banner_slider .row {
+        height: 500px;
+    }
+    #banner .banner_slider {
+        height: 500px;
+    }
+    #banner .banner_slider .banner_cnt h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    #banner .banner_slider .banner_cnt p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 15px 0 15px 0;
+    }
+    #banner .banner_slider .banner_cnt .button :last-child {
+        top: 14px;
+        padding-left: 5px;
+    }
+    .button {
+        background-color: var(--primarycolor);
+        
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    #banner .slick-dots {
+        left: 28px;
+        bottom: 20%;
+    }
+}
+
+/* ======Banner End's==== */
+
+
+
+/* ======Category===== */
+
+/* ======Category End's==== */
+
+
+    /* ======Product Start's */
+    #product .arrows .left_arrow {
+        left: 52px;
+     }
+    #product .arrows .right_arrow {
+        right: 52px;
+     }
+ /* ======Product End's */
+ 
+/* responsive:Midium End's */
+
+
+
+
+/* responsive:Small Device Start's */
+ 
+@media (min-width:400px) and (max-width:767px){
+
+    nav .icon-panel ul li a{
+        font-size: 15px;
+        padding: 0 10px;
+        color: var(--seconderycolor);
+        position: relative;
+    
+    }
+    /* ===Banner Start's=== */
+    #banner .banner_slider .banner_cnt {
+        width: 100%;
+    }
+    #banner .banner_slider {
+        height: 350px;
+    }
+    #banner .banner_slider .row {
+        height: 350px;
+    }
+    #banner .banner_slider .banner_cnt h4 {
+        font-size: 20px;
+    }
+    #banner .banner_slider .banner_cnt h2 {
+        font-size: 25px;
+        line-height: 18px;
+    }
+    #banner .banner_slider .banner_cnt p {
+      font-size: 12px;
+      line-height: 15px;
+    }
+    #banner .banner_slider .banner_cnt .button :last-child {
+        top: 10px;
+        padding-left: 3px;
+        font-size: 11px;
+    }
+    .button {
+        margin-top: 20px;
+        padding: 5px 18px;
+        font-size: 14px;
+        margin-left: -3px;
+    }
+    #banner .slick-dots{
+        bottom: 80px;
+        left: -2px;
+    }
+    #banner .slick-dots li {
+        display: inline-block;
+        padding: 0px;
+    }
+    #banner .slick-dots button{
+       transform: scale(0.5);
+    }
+    nav .menuButton {
+        font-size: 30px;
+    }
+    img, svg {
+        vertical-align: middle;
+        height: 25px;
+    }
+    #banner .banner_slider .banner_cnt {
+        width: 100%;
+        margin-top: -150px;
+    }
+/* ====Banner End's */
+/*====== Category Start's ===== */
+
+    #categories .category-card img{
+        width: 100%;
+        height: 100%;
+    }
+     #categories .category-card .overley>*{
+        opacity: 1;
+        display: block;
+    }
+    #categories .category-card .overley .overley_cnt >*{
+        opacity: 1;
+        transform: translatex(0px);
+    }
+    #categories .category-card .overley{
+        display: block;
+        opacity: 1;
+     }
+    #categories .category-card .overley .overley_cnt h2{
+        color: #FFFFFF;
+        padding-bottom: 1px;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    /* ======Product Start's */
+    #product .container h3 {
+        font-weight: 800;
+        font-size: 20px;
+    }
+   #product .arrows .left_arrow {
+       left: 28px;
+    }
+   #product .arrows .right_arrow {
+       right: 28px;
+    }
+/* ======Product End's */
+
+
+    /* ====== Category End's ===== */
+}
+
+
+
+
+
+
+/*  responsive:Small Device End's */
+
